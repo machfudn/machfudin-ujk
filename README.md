@@ -21,7 +21,7 @@ Backend ini tidak hanya menggunakan query standar, tetapi juga menerapkan standa
 
 - **Stored Procedure**: Digunakan untuk proses _Insert Data_ (`CALL tambah_siswa`) agar lebih aman dan terstruktur.
 - **Trigger Database**:
-  - **Auto Generate Kode**: Kode siswa (SXXX) dibuat otomatis oleh database menggunakan fungsi `kode_siswa()`, bukan input manual.
+- **Auto Generate Kode**: Kode siswa (SXXX) dibuat otomatis oleh database menggunakan fungsi `kode_siswa()`, bukan input manual.
 - **MySQL Function**: Menggunakan fungsi kustom `total_siswa()` untuk menghitung statistik data.
 - **OOP Pattern**: Menggunakan konsep _Object Oriented Programming_ dengan Class Controller (`siswaController.js`).
 
