@@ -2,6 +2,8 @@
 
 Repository ini berisi source code **Backend dan Frontend** . Frontend(Client Side) untuk antarmuka aplikasi Data Siswa Frontend menggunakan **React.js** (Vite) dan **Bootstrap** untuk tampilan yang responsif dan modern. Backend(Server Side) untuk aplikasi manajemen data siswa. Backend menggunakan **Node.js**, **Express**, dan database **MySQL** dengan penerapan fitur database lanjutan.
 
+![User Interface](./ui/tampilan%20frontend.png)
+
 ## Fitur yang dimiliki
 
 ### Frontend
