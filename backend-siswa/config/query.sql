@@ -10,11 +10,11 @@ WHERE kode_siswa = 'S001';
 
 -- DELETE
 DELETE FROM siswa
-WHERE kode_siswa = 'S004';
+WHERE kode_siswa = 'S001';
 
 -- OPERASI RELASIONAL
 SELECT * FROM siswa
-WHERE jurusan_siswa = 'RPL';
+WHERE jurusan_siswa = 'Rekayasa Perangkat Lunak';
 
 -- STORED PROCEDURE
 DELIMITER $$

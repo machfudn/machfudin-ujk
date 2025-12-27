@@ -59,6 +59,7 @@ export default function App() {
       setNextKode(res.data.kode_siswa);
     } catch (error) {
       console.error("Gagal mengambil kode siswa:", error);
+      throw error;
     }
   };
 
@@ -69,6 +70,7 @@ export default function App() {
       await axios.post(API_URL, form);
     } catch (error) {
       console.error("Gagal menambahkan siswa:", error);
+      throw error;
     } finally {
       setLoading(false);
     }
@@ -81,6 +83,7 @@ export default function App() {
       await axios.put(`${API_URL}/${editId}`, form);
     } catch (error) {
       console.error("Gagal mengupdate siswa:", error);
+      throw error;
     } finally {
       setLoading(false);
     }
