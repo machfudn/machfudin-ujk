@@ -5,7 +5,7 @@ Repository ini berisi source code **Frontend** (Client Side) untuk antarmuka apl
 ## Fitur Antarmuka (UI/UX)
 
 - **Auto Code Display**: Menampilkan Kode Siswa otomatis (SXXX) dengan tampilan disable agar user paham bahwa kode dibuat oleh sistem.
-- **Validasi & Notifikasi**: Menampilkan pesan pop-up (Sukses/Gagal) yang informatif, termasuk menangkap pesan error dari Trigger database jika ada data ganda.
+- **Validasi & Notifikasi**: Menampilkan pesan pop-up (Sukses/Gagal) yang informatif, termasuk menangkap pesan error dari Trigger database.
 - **Responsive Design**: Tampilan rapi di layar desktop maupun mobile menggunakan Bootstrap 5.
 - **Single Page Feel**: Interaksi cepat tanpa reload halaman menggunakan State Management React.
 
