@@ -23,7 +23,6 @@ Backend ini tidak hanya menggunakan query standar, tetapi juga menerapkan standa
 - **Trigger Database**:
   - **Auto Generate Kode**: Kode siswa (SXXX) dibuat otomatis oleh database menggunakan fungsi `kode_siswa()`, bukan input manual.
 - **MySQL Function**: Menggunakan fungsi kustom `total_siswa()` untuk menghitung statistik data.
-- **Database Transaction**: Menerapkan `Begin Transaction`, `Commit`, dan `Rollback` untuk menjamin integritas data saat operasi Create/Update.
 - **OOP Pattern**: Menggunakan konsep _Object Oriented Programming_ dengan Class Controller (`siswaController.js`).
 
 ## Teknologi yang Digunakan
